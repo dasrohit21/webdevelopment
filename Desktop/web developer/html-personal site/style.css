@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;    
+}
+nav{
+    background : #0c0c0c;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color : #fff;
+    font-size : 35px;
+    line-height : 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display : inline-block;
+    line-height : 80px;
+    margin : 0 8px;
+}
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    border : 1px solid white;
+    transition: 5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+}
