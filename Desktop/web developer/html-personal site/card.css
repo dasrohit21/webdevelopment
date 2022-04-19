@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(27,27,27)
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.card{
+    background: white;
+    width: 60em;
+    margin: 3em;
+    border-radius:15px;
+}
+.card-image{
+    height:300px;
+    margin-bottom: 8px;
+    background-size:cover;
+    border-radius:15px 15px 0 0;
+    background-color: aqua;
+
+}
+.car-1{
+    background-image: url(https://unsplash.com/photos/4KJJezDyo3M)
+}
+.car-2{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO3OnXh2SeMZd_Zhn208ahk3lk76woFamRRwMKgUpdekyt6lmWPMYcLC2SlPNMzPo8hLA&usqp=CAU)
+}
+.car-3{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCUM1rE9AOrqtzDa0EAqk-f9cPoo5bQO-husgKCmUtMPmYR-pJNI2PgKCyP0JVp0qzlYg&usqp=CAU)
+}
+
+.card h2{
+    padding:10px;
+}
+.card p{
+    padding:10px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin:15px 10px;
+    border-radius: 15px; 
+    
+}
+.card:hover{
+    background-color: rgb(50, 49, 49);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: 2s;
+}
