@@ -39,7 +39,22 @@ nav a{
 }
 a.active,a:hover{
     border : 1px solid white;
-    transition: 5s;
+    transition: 3s;
+}
+nav #icon{
+    color: white;
+    font: size 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 1048px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 60px;
+    }
 }
 .checkbtn{
     font-size: 30px;
